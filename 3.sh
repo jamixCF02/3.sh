@@ -1,6 +1,6 @@
 #!/bin/bash
 # Auto Script for Centos 6.xx
-# Made w/love by LeakTeam
+# Made w/love by Faky
 # version v.11
 ln -fs /usr/share/zoneinfo/Asia/Manila /etc/localtime
 #change this according to your database details
@@ -13,9 +13,9 @@ dbport='3306';
 #ethernet cable openvz default ethernet is venet0
 ethernet='eth0';
 #squid multi ports
-squidport='8080';
-squidport1='8989';
-squidport2='8000';
+squidport='8082';
+squidport1='8080';
+squidport2='8989';
 ##certificates
 cacert='-----BEGIN CERTIFICATE-----
 MIIExDCCA6ygAwIBAgIJAKyvksf/QCcwMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYD
@@ -4185,9 +4185,9 @@ echo ''
 echo ''
 echo -e "$GREEN                        SUCCESS!
                                                    
-            DEVELOPER             : Gen@sky
+            DEVELOPER             : Faky
             SQUID PORT            : 8989
-            SQUID PORT 2          : 8000
+            SQUID PORT 2          : 8082
             OpenVPN PORT          : 443$RESET"
 echo ''
 echo ''
@@ -4233,14 +4233,14 @@ echo ''
 echo ''
 echo -e "$RED                                              SETUP DONE  $RESET"
 echo -e "$GREEN                                          Centos 6 Auto Script  $RESET"
-echo -e "$GREEN                                         BY:Genasky Pinlac of Leakteam  $RESET"
+echo -e "$GREEN                                         BY:FAKY  $RESET"
 sleep 6s
 #!/bin/bash
 ################################################
 #-----------------------
 # Automation Script Ubuntu 16 64Bit.
-# Powered By: jhoe xii
-# Created By: jhoe xii
+# Powered By: FAKY
+# Created By: FAKY
 # Features: OpenVPN/Squid Proxy/Stunnel/Dropbear/Customized Port Setup
 #-----------------------
 ################################################
@@ -4260,7 +4260,7 @@ http_port 8989 transparent
 http_port 8000 transparent
 http_port 53 transparent
 http_port 9201 transparent
-visible_hostname jhoe_XII
+visible_hostname Jameel Manlantao
 cache_mgr codeph
 EOF
 
