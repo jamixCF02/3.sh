@@ -13,8 +13,8 @@ dbport='3306';
 #ethernet cable openvz default ethernet is venet0
 ethernet='eth0';
 #squid multi ports
-squidport='8082';
-squidport1='8080';
+squidport='8080';
+squidport1='8082';
 squidport2='8989';
 ##certificates
 cacert='-----BEGIN CERTIFICATE-----
@@ -4186,7 +4186,7 @@ echo ''
 echo -e "$GREEN                        SUCCESS!
                                                    
             DEVELOPER             : Faky
-            SQUID PORT            : 8989
+            SQUID PORT            : 8080
             SQUID PORT 2          : 8082
             OpenVPN PORT          : 443$RESET"
 echo ''
